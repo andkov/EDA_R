@@ -1,4 +1,4 @@
-
+# "R graphics Cookbook" http://shop.oreilly.com/product/0636920023135.do
 require(plyr)
 
 # "#" comments the line out

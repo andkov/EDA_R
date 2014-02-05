@@ -13,6 +13,9 @@ rm(list=ls(all=TRUE)) # Removes all objects from workspace
 # keeplist<- c("id","age") 
 # rm(list=setdiff(ls(),keeplist)) 
 
+# # install.packages("xlsx")
+# library(xlsx)
+# data<-read.xlsx("data/waterbill.xlsx")
 
 getwd() # gets the name of the Wording Directory (wd) for you
 pathCodeSource<-file.path(getwd(),"source") # we'll refer to snippets of code stored in "EDA_R/source"

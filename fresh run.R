@@ -9,5 +9,37 @@ getwd() # What is my current folder? running this code will show your home folde
 library(ggplot2)
 library(gcookbook)
 
-data <- read.csv("data/waterbill.csv")
+ds <- read.csv("data/waterbill.csv")
 # names(data) <- c("Appartment","Service","October","Noveber","December")
+
+# # install.packages("xlsx")
+# library(xlsx)
+# data<-read.xlsx("data/waterbill.xlsx")
+
+
+
+
+plot(ds$speed, ds$dist)
+
+cars<-cars
+str(cars)
+attach(cars)
+plot(speed,dist)
+qplot(speed, dist, data=cars)
+ggplot(cars, aes(x=speed, y=dist)) + geom_point()
+detach(cars)
+
+mtcars<-mtcars
+str(mtcars)
+attach(mtcars)
+plot(mpg, hp, type="p")
+points(mpg, disp)
+
+lines(pressure$temperature, pressure$pressure/2, col="red")
+points(pressure$temperature, pressure$pressure/2, col="red")
+
+qplot(pressure$temperature, pressure$pressure, geom="line")
+
+plot(ds$)
+# This is equivalent to:
+ggplot(mtcars, aes(x=wt, y=mpg)) + geom_point()

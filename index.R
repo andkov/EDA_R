@@ -1,5 +1,5 @@
 # "R graphics Cookbook" http://shop.oreilly.com/product/0636920023135.do
-
+#  Winston's Talk " http://www.oreillynet.com/pub/e/2574" 
 
 # "#" comments the line out
 #                     To comment out == Ctrl+Shift+C
